@@ -5,6 +5,8 @@ This repository contains the code for the paper [ProMIL: Probabilistic Multiple 
 
 ## How to use this code
 
+Before using the code prepare the data following the instructions from https://github.com/apardyl/ProtoMIL
+
 ### Requirements
 
 We use the following packages:
@@ -16,7 +18,7 @@ We use the following packages:
 
 ### Running the code
 
- 
+Run specific main file responsible for a given dataset. The model assumes that the representations for patches from big histology datasets (e.g. TCGA NSCLC) are already extracted using pretrained network.
 
 
 ## Citation
